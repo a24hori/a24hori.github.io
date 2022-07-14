@@ -2,7 +2,7 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
+  background-color: rgb(255, 236, 215);
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -123,6 +123,7 @@ header {
   float:left;
   position:fixed;
   padding: 5px;
+  margin: auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
