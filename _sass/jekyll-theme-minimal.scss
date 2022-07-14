@@ -121,7 +121,7 @@ kbd {
 header {
   width:300px;
   float:left;
-  position: absolute;
+  position: fixed;
   padding: 5px;
   margin: 5px;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -190,6 +190,7 @@ strong {
 section {
   width:600px;
   float:right;
+  position: absolute;
   padding-bottom:50px;
 }
 
