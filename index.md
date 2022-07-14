@@ -20,9 +20,9 @@ He is currently working on equilibrium problems; for example, (stochastic) varia
 
 ## Publications
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. Submitted. <a>https://arxiv.org/abs/2111.07500</a>
+1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. Submitted. [https://arxiv.org/abs/2111.07500](https://arxiv.org/abs/2111.07500)
 
-1. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. <a>https://doi.org/10.1007/s10957-018-1391-5</a>
+1. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. [https://doi.org/10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5)</a>
 
 
 ## Talks (international conferences)
