@@ -6,12 +6,13 @@ title: Top Page
 ## About me
 
 Atsushi Hori is a Ph.D. student at Kyoto University.
-He is currently working on equilibrium problems; for example, (stochastic) variational inequalities, Nash equilibrium problems.
+He is currently working on equilibrium problems, for example, (stochastic) variational inequalities and Nash equilibrium problems, under the supervision of Professor Nobuo Yamashita.
+When he was in Bachelor's and Master's degrees, he studied the basic theory of continuous optimization and equilibrium problems supervised by Professor Emeritus Masao Fukushima of Kyoto University.
 
 ## Education
 
-- Bachelor of Science and Engineering, Nanzan University, 2016
-- Master of Mathematical Science, the Graduate School of Science and Engineering, Nanzan University, 2018
+- Bachelor of Science and Engineering, Nanzan University, Nagoya, Japan, 2016
+- Master of Mathematical Science, the Graduate School of Science and Engineering, Nanzan University, Nagoya, Japan, 2018
 
 ## Work Experiences
 
@@ -20,9 +21,14 @@ He is currently working on equilibrium problems; for example, (stochastic) varia
 
 ## Publications
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. Submitted. [https://arxiv.org/abs/2111.07500](https://arxiv.org/abs/2111.07500)
+### Refereed Papers
 
 1. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. [https://doi.org/10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5)
+
+### Preprint
+
+1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. Submitted. [https://arxiv.org/abs/2111.07500](https://arxiv.org/abs/2111.07500)
+
 
 
 ## Talks (international conferences)
