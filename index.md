@@ -8,6 +8,15 @@ title: Top Page
 Atsushi Hori is a Ph.D. student at Kyoto University.
 He is currently working on equilibrium problems; for example, (stochastic) variational inequalities, Nash equilibrium problems.
 
+## Education
+
+- Bachelor of Science and Engineering, Nanzan University, 2016
+- Master of Mathematical Science, the Graduate School of Science and Engineering, Nanzan University, 2018
+
+## Work Experiences
+
+- 2018.4--2020.3: Mitsubishi Electric Corporation
+- 2020.4--2021.12: Work as a sole proprietor (development of applications using mathematical optimization techniques and machine learning algorithms) 
 
 ## Publications
 

@@ -1,6 +1,6 @@
 title: Atsushi Hori's website
 #logo: /assets/img/logo.png
-#description: Top
-show_downloads: true
+description: Personal website
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
