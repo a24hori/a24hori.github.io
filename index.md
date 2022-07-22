@@ -7,7 +7,7 @@ title: Top Page
 
 Atsushi Hori is a Ph.D. student at Kyoto University.
 He is currently working on equilibrium problems, for example, (stochastic) variational inequalities and Nash equilibrium problems, supervised by Professor Nobuo Yamashita.
-During his Bachelor's and Master's programs, he studied the basic theory of continuous optimization and equilibrium problems under the guidance of by Professor Emeritus Masao Fukushima of Kyoto University.
+During his Bachelor's and Master's programs, he studied continuous optimizations, equilibrium problems, and operations research under the guidance of Professor Emeritus Masao Fukushima of Kyoto University.
 
 ## Education
 
