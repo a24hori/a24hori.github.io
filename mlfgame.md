@@ -3,6 +3,7 @@ layout: default
 title: Gauss--Seidel method for multi-leader--follower games
 ---
 
+## Gauss--Seidel method for multi-leader--follower games, J. Optim. Theory Appl. (2019)
 
 The multi-leader--follower game (MLFG) is one of the bilevel structured games, or an extension of the Stackelberg games, in which two and more players take actions first, and then the other players take actions after observing the leaders' decisions.
 The model has been widely applied in the economics area; for example, analyzing an electricity market, where leaders are electric power firms, and a follower is an independent system operator.
