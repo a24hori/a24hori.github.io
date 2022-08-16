@@ -5,9 +5,13 @@ title: Top Page
 
 ## About me
 
-Atsushi Hori is a Ph.D. student at Kyoto University.
-He is currently working on equilibrium problems, for example, (stochastic) variational inequalities and Nash equilibrium problems, supervised by Professor Nobuo Yamashita.
-During his Bachelor's and Master's programs, he studied continuous optimizations, equilibrium problems, and operations research under the guidance of Professor Emeritus Masao Fukushima of Kyoto University.
+I am a PhD student at Kyoto University.
+I am currently working on stochastic equilibrium problems under distributional ambiguity, e.g., stochastic variational inequalities and Nash equilibrium problems, under the supervision of Professor Nobuo Yamashita.
+During my Bachelor's and Master's programs in Nanzan University, I also studied continuous optimizations, equilibrium problems, and operations research under the guidance of Professor Emeritus Masao Fukushima of Kyoto University.
+I have worked as an embedded software engineer for 2 years, which is a completely different field from mathematical optimization.
+After quitting the job, I started the different career to be a researcher.
+Though I moved to Kyoto for the PhD, professors in Nanzan University take care of me and I sometimes join an operational research seminar held online.
+I really appreciate their advice and helpful comments.
 
 ## Education
 
@@ -21,15 +25,15 @@ During his Bachelor's and Master's programs, he studied continuous optimizations
 
 ## Publications
 
-### Refereed Papers
+### Published Refereed Papers
 
 1. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. [https://doi.org/10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) -> [description](./mlfgame.html)
 
-### Preprint
+### Under Review
+
+1. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. Submitted. [Available from Optimization Online](https://optimization-online.org/2022/08/two-stage-distributionally-robust-noncooperative-games-existence-of-nash-equilibria-and-its-application-to-cournot-nash-competition/)
 
 1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. Submitted. [https://arxiv.org/abs/2111.07500](https://arxiv.org/abs/2111.07500)
-
-
 
 ## Talks (international conferences)
 
@@ -38,6 +42,8 @@ During his Bachelor's and Master's programs, he studied continuous optimizations
 1. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games, [The Fifth International Conference on Continuous Optimization (ICCOPT 2016)](http://www.iccopt2016.tokyo/), National Graduate Institute for Policy Studies, Tokyo, Japan, August, 2016 (poster).
 
 ## Talks (in Japanese)
+
+1. **堀篤史**，山下信雄：２段階分布的ロバストナッシュ均衡問題と均衡解の存在性，[連続最適化および関連分野に関する夏季学校2022](https://www.ism.ac.jp/~mirai/sscoke/2022/)，統計数理研究所，東京，2022年8月．
 
 1. **堀篤史**：2段階分布的ロバストCournot--Nash均衡問題と均衡解の存在性，[日本OR学会2022年春季研究発表会](https://www.orsj.org/nc2022s/)，群馬大学（オンライン），2022年3月．
 
