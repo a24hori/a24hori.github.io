@@ -20,4 +20,4 @@ The technical advantages of the algorithm are
 
 ---
 
-**A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. [https://doi.org/10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) -> [description](./mlfgame.html)
+**A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. [https://doi.org/10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5)
