@@ -5,12 +5,17 @@ title: Top Page
 
 ## About me
 
-I am a PhD student at Kyoto University.
-I am currently working on stochastic equilibrium problems under distributional ambiguity, e.g., stochastic variational inequalities and Nash equilibrium problems, under the supervision of Professor Nobuo Yamashita.
-During my Bachelor's and Master's programs in Nanzan University, I also studied continuous optimizations, equilibrium problems, and operations research under the guidance of Professor Emeritus Masao Fukushima of Kyoto University.
-I have worked as an embedded software engineer for 2 years, which is a completely different field from mathematical optimization.
-After quitting the job, I started the different career to be a researcher.
-Though I moved to Kyoto for the PhD, professors in Nanzan University take care of me and I sometimes join an operational research seminar held online.
+Thanks for visiting my website.
+I am Atsushi Hori, a Ph.D. student at Kyoto University.
+My research topics are continuous optimization, Nash games, and variational inequalities.
+I am especially interested in extending these concepts to uncertain situations, such as stochastic variational inequality and distributionally robust Nash games.
+
+I got my Bachelor's and Master's degrees from Nanzan University under the supervision of Professor Masao Fukushima.
+Then I worked as a software engineer for two years, which was totally different from the optimization field.
+After quitting the job, I went back to the optimization community.
+My current supervisor is Professor Nobuo Yamashita.
+
+Although I moved to Kyoto (a beautiful city and comfortable to live in!), professors at Nanzan University take care of me, and I sometimes join a seminar on operations research held online.
 I really appreciate their advice and helpful comments.
 
 ## Education
@@ -25,7 +30,7 @@ I really appreciate their advice and helpful comments.
 
 ## Publications
 
-### Published Refereed Papers
+### Peer-reviewed Papers
 
 1. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, to appear. [Available from Optimization Online](https://optimization-online.org/2022/08/two-stage-distributionally-robust-noncooperative-games-existence-of-nash-equilibria-and-its-application-to-cournot-nash-competition/) ([description](./tsnashgame.html))
 
