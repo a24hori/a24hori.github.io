@@ -28,11 +28,19 @@ I really appreciate their advice and helpful comments.
 - 2018.04--2020.03: Mitsubishi Electric Corporation
 - 2020.04--2021.12: Work as a sole proprietor (development of applications using mathematical optimization techniques and machine learning algorithms) 
 
+## Academic Memberships
+
+- The Operations Research Society of Japan (ORSJ)
+
+## Commitees
+
+- 2022.12--: Vice-president of Kyoto University SIAM student chapter 
+
 ## Publications
 
 ### Peer-reviewed Papers
 
-1. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, published online (early access), 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
+1. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
 2. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
 
