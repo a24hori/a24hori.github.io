@@ -48,11 +48,13 @@ I really appreciate their advice and helpful comments.
 
 1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. Submitted. [https://arxiv.org/abs/2111.07500](https://arxiv.org/abs/2111.07500)
 
-## Talks (international conferences)
+## Talks (in English)
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems, [SIAM Conference on Optimization (OP21)](https://www.siam.org/conferences/cm/conference/op21), Virtual (CP2 Advances in Robust and Distributionally Robust Optimization), July, 2021.
+1. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its application to Cournot-Nash competition, [International Workshop on Continuous Optimization](http://www.opt.c.titech.ac.jp/DecemberWorkshop/index.html), Virtual, December, 2022.
 
-1. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games, [The Fifth International Conference on Continuous Optimization (ICCOPT 2016)](http://www.iccopt2016.tokyo/), National Graduate Institute for Policy Studies, Tokyo, Japan, August, 2016 (poster).
+2. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems, [SIAM Conference on Optimization (OP21)](https://www.siam.org/conferences/cm/conference/op21), Virtual (CP2 Advances in Robust and Distributionally Robust Optimization), July, 2021.
+
+3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games, [The Fifth International Conference on Continuous Optimization (ICCOPT 2016)](http://www.iccopt2016.tokyo/), National Graduate Institute for Policy Studies, Tokyo, Japan, August, 2016 (poster).
 
 ## Talks (in Japanese)
 
