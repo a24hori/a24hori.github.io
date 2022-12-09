@@ -32,7 +32,7 @@ I really appreciate their advice and helpful comments.
 
 - The Operations Research Society of Japan (ORSJ)
 
-## Commitees
+## Committee Activities
 
 - 2022.12--: Vice-president of Kyoto University SIAM student chapter 
 
