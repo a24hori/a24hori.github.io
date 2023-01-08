@@ -39,13 +39,14 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Peer-reviewed Papers
 
-1. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
+1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear. Preprint is available at [arXiv:2111.07500](https://arxiv.org/abs/2111.07500)
 
-2. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
+2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
-### Under Review
+3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. Submitted. [https://arxiv.org/abs/2111.07500](https://arxiv.org/abs/2111.07500)
+<!--### Under Review -->
+
 
 ## Talks (in English)
 
