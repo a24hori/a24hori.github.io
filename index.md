@@ -6,9 +6,10 @@ title: Top Page
 ## About me
 
 Hello, and welcome to my website!
-I am Atsushi Hori, a Ph.D. student at Kyoto University.
+I am Atsushi Hori, a Ph.D. candidate at Kyoto University.
 My research focuses on developing mathematical models and algorithms for solving complex problems in continuous optimization, Nash games, and variational inequalities. Now I am particularly interested in exploring those uncertain cases, such as stochastic variational inequalities and distributionally robust Nash games.
 
+<!--
 My passion for optimization was sparked during my undergraduate studies at Nanzan University, where I had the privilege of studying under the guidance of Professor Masao Fukushima.
 After receiving my Bachelor's and Master's degrees, I decided to take a detour and work as a software engineer for two years, which was a great learning experience but also a stark contrast to the optimization field.
 Eventually, I decided to return to my roots and enrolled in the Ph.D. program at Kyoto University, where I am now supervised by Professor Nobuo Yamashita.
@@ -16,6 +17,7 @@ Eventually, I decided to return to my roots and enrolled in the Ph.D. program at
 Although I now reside in the beautiful city of Kyoto, I am still in contact with my professors at Nanzan University, who continue to provide me with valuable advice and guidance.
 I also have the opportunity to participate in online seminars on operations research, which I greatly appreciate.
 All in all, I am grateful for the support and guidance of my mentors, both past and present.
+-->
 
 ## Education
 
@@ -30,16 +32,17 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 ## Academic Memberships
 
 - The Operations Research Society of Japan (ORSJ)
+- SIAM (Society for Industrial and Applied Mathematics)
 
 ## Committee Activities
 
-- 2022.12--: Vice-president of Kyoto University SIAM student chapter 
+- 2022.12--2023.03: Vice-president of Kyoto University SIAM student chapter
 
 ## Publications
 
 ### Peer-reviewed Papers
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear. Preprint is available at [arXiv:2111.07500](https://arxiv.org/abs/2111.07500)
+1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear, 2023. DOI: (will be available)[10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) (Preprint is available at [arXiv:2111.07500](https://arxiv.org/abs/2111.07500))
 
 2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
