@@ -42,7 +42,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Peer-reviewed Papers
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear, 2023. DOI: (will be available)[10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) (Preprint is available at [arXiv:2111.07500](https://arxiv.org/abs/2111.07500))
+1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear, 2023. DOI: (will be available)[10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) (Preprint is available at [arXiv:2111.07500](https://arxiv.org/abs/2111.07500)) ([description](./drerm_svi.html))
 
 2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
