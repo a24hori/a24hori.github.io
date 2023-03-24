@@ -21,8 +21,9 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Education
 
-- Bachelor of Science and Engineering, Nanzan University, Nagoya, Japan, 2016
+- Doctor of Informatics, the Graduate School of Informatics, Kyoto University, Kyoto, Japan, 2023
 - Master of Mathematical Science, the Graduate School of Science and Engineering, Nanzan University, Nagoya, Japan, 2018
+- Bachelor of Science and Engineering, Nanzan University, Nagoya, Japan, 2016
 
 ## Work Experiences
 
@@ -44,7 +45,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear, 2023. DOI: [10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) ([description](./drerm_svi.html))
 
-2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its appliction to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
+2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its application to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
 3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
 
