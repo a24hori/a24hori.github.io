@@ -6,7 +6,7 @@ title: Top Page
 ## About me
 
 Hello, and welcome to my website!
-I am Atsushi Hori, a Ph.D. candidate at Kyoto University.
+I am Atsushi Hori.
 My research focuses on developing mathematical models and algorithms for solving complex problems in continuous optimization, Nash games, and variational inequalities. Now I am particularly interested in exploring those uncertain cases, such as stochastic variational inequalities and distributionally robust Nash games.
 
 <!--
