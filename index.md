@@ -6,7 +6,7 @@ title: Top Page
 ## About me
 
 Hello, and welcome to my website!
-I am Atsushi Hori.
+I am Atsushi Hori, an assistant professor at Seikei University.
 My research focuses on developing mathematical models and algorithms for solving complex problems in continuous optimization, Nash games, and variational inequalities. Now I am particularly interested in exploring those uncertain cases, such as stochastic variational inequalities and distributionally robust Nash games.
 
 <!--
