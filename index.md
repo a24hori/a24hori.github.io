@@ -8,6 +8,7 @@ title: Top Page
 Hello, and welcome to my website!
 I am Atsushi Hori, an assistant professor at Seikei University.
 My research focuses on developing mathematical models and algorithms for solving complex problems in continuous optimization, Nash games, and variational inequalities. Now I am particularly interested in exploring those uncertain cases, such as stochastic variational inequalities and distributionally robust Nash games.
+Please refer to [Publications](#publications) for my recent studies.
 
 <!--
 My passion for optimization was sparked during my undergraduate studies at Nanzan University, where I had the privilege of studying under the guidance of Professor Masao Fukushima.
@@ -43,9 +44,9 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Peer-reviewed Papers
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear, 2023. DOI: [10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) ([description](./drerm_svi.html))
+1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear. DOI: [10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) ([description](./drerm_svi.html))
 
-2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its application to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, 2022. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
+2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its application to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, **19**, 6430--6450, 2023. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
 3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
 
@@ -83,6 +84,6 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Awards
 
-- Best Presentation Award; Operations Research Society of Japan, Kansai branch SSOR2021 ([link](https://orsj.org/kansai/2021/10/22/%e6%97%a5%e6%9c%acor%e5%ad%a6%e4%bc%9a-%e9%96%a2%e8%a5%bf%e6%94%af%e9%83%a8-2021-%e5%b9%b4%e5%ba%a6%e8%8b%a5%e6%89%8b%e7%a0%94%e7%a9%b6%e7%99%ba%e8%a1%a8%e4%bc%9a-%e5%84%aa%e7%a7%80%e7%99%ba%e8%a1%a8/))
-- Best Student Paper Award 2018; Operations Research Society of Japan ([link](http://www.orsj.or.jp/whatisor/award6.html))
-- Best Student Presentation Award 2017; The 44th conference, Operations Research Society of Japan, Cyubu branch ([link](http://www.orsj.or.jp/chubu/?p=2708))
+- Excellent Presentation Award; Operations Research Society of Japan, Kansai branch SSOR2021 ([link](https://orsj.org/kansai/2021/10/22/%e6%97%a5%e6%9c%acor%e5%ad%a6%e4%bc%9a-%e9%96%a2%e8%a5%bf%e6%94%af%e9%83%a8-2021-%e5%b9%b4%e5%ba%a6%e8%8b%a5%e6%89%8b%e7%a0%94%e7%a9%b6%e7%99%ba%e8%a1%a8%e4%bc%9a-%e5%84%aa%e7%a7%80%e7%99%ba%e8%a1%a8/))
+- Student Thesis Award 2018; Operations Research Society of Japan ([link](http://www.orsj.or.jp/whatisor/award6.html))
+- Excellent Student Presentation Award 2017; The 44th conference, Operations Research Society of Japan, Cyubu branch ([link](http://www.orsj.or.jp/chubu/?p=2708))
