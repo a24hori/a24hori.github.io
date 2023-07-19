@@ -20,16 +20,17 @@ I also have the opportunity to participate in online seminars on operations rese
 All in all, I am grateful for the support and guidance of my mentors, both past and present.
 -->
 
+## Work Experiences
+
+- 2023.04--present: Assistant Professor at Seikei University
+- 2018.04--2020.03: Mitsubishi Electric Corporation
+- 2020.04--2021.12: Work as a sole proprietor (development of applications using mathematical optimization techniques and machine learning algorithms) 
+
 ## Education
 
 - Doctor of Informatics, the Graduate School of Informatics, Kyoto University, Kyoto, Japan, 2023
 - Master of Mathematical Science, the Graduate School of Science and Engineering, Nanzan University, Nagoya, Japan, 2018
 - Bachelor of Science and Engineering, Nanzan University, Nagoya, Japan, 2016
-
-## Work Experiences
-
-- 2018.04--2020.03: Mitsubishi Electric Corporation
-- 2020.04--2021.12: Work as a sole proprietor (development of applications using mathematical optimization techniques and machine learning algorithms) 
 
 ## Academic Memberships
 
@@ -44,7 +45,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Peer-reviewed Papers
 
-1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, to appear. DOI: [10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) ([description](./drerm_svi.html))
+1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, **38**, 756--780, 2023. DOI: [10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) ([description](./drerm_svi.html))
 
 2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its application to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, **19**, 6430--6450, 2023. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
