@@ -38,7 +38,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Committee Activities
 
-- 2022.12--2023.03: Vice-president of Kyoto University SIAM student chapter
+- 2022.12--2023.03: Vice-president of [Kyoto University SIAM student chapter](https://sites.google.com/view/siam-sc-kyoto/home)
 
 ## Publications
 
