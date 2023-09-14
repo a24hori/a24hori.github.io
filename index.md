@@ -7,8 +7,7 @@ title: Top Page
 
 Hello, and welcome to my website!
 I am Atsushi Hori, an assistant professor at Seikei University.
-My research focuses on developing mathematical models and algorithms for solving complex problems in continuous optimization, Nash games, and variational inequalities. Now I am particularly interested in exploring those uncertain cases, such as stochastic variational inequalities and distributionally robust Nash games.
-Please refer to [Publications](#publications) for my recent studies.
+My interests include mathematical optimization, variational inequality and complementarity problems, and leader--follower optimization (bilevel optimization).
 
 <!--
 My passion for optimization was sparked during my undergraduate studies at Nanzan University, where I had the privilege of studying under the guidance of Professor Masao Fukushima.
@@ -23,8 +22,8 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 ## Work Experiences
 
 - 2023.04--present: Assistant Professor at Seikei University
-- 2018.04--2020.03: Mitsubishi Electric Corporation
 - 2020.04--2021.12: Work as a sole proprietor (development of applications using mathematical optimization techniques and machine learning algorithms) 
+- 2018.04--2020.03: Mitsubishi Electric Corporation
 
 ## Education
 
@@ -63,6 +62,10 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games, [The Fifth International Conference on Continuous Optimization (ICCOPT 2016)](http://www.iccopt2016.tokyo/), National Graduate Institute for Policy Studies, Tokyo, Japan, August, 2016 (poster).
 
 ## Talks (in Japanese)
+
+1. **堀篤史**，石森礼樹，関谷和之：2-D-4，規模に関する収穫一定の生産可能集合上での重み付き最短距離非効率性尺度の性質，[日本OR学会2023年秋季研究発表会](https://orsj.org/nc2023f/)，関西学院大学 西宮上ケ原キャンパス，兵庫，2023年9月．
+
+1. **堀篤史**，露口大介，福田エレン秀美：1-A-4，マルチリーダー・マルチフォロワーゲームに対するフォロワーの応答関数の平滑化を用いた解法，[日本OR学会2023年秋季研究発表会](https://orsj.org/nc2023f/)，関西学院大学 西宮上ケ原キャンパス，兵庫，2023年9月．
 
 1. **堀篤史**，山下信雄：2-A-3，2段階分布的ロバスト確率非協力ゲームにおける均衡解の存在性とクールノー競争への応用，[日本OR学会2022年秋季研究発表会](https://orsj.org/nc2022f/)，朱鷺メッセ 新潟コンベンションセンター，新潟，2022年9月．
 
