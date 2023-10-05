@@ -27,7 +27,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Education
 
-- Doctor of Informatics, the Graduate School of Informatics, Kyoto University, Kyoto, Japan, 2023
+- Doctor of Informatics, the Graduate School of Informatics, Kyoto University, Kyoto, Japan, 2023 ([Doctoral thesis](https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/283860))
 - Master of Mathematical Science, the Graduate School of Science and Engineering, Nanzan University, Nagoya, Japan, 2018
 - Bachelor of Science and Engineering, Nanzan University, Nagoya, Japan, 2016
 
