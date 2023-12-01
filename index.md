@@ -50,8 +50,9 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
 
-<!--### Under Review -->
+### Under Review
 
+1. **A. Hori**, D. Tsuyuguchi, and Ellen H. Fukuda, A method for multi-leader--multi-follower games by smoothing the followers' response function. arXiv:[2311.18601](https://arxiv.org/abs/2311.18601)
 
 ## Talks (in English)
 
