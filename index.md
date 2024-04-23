@@ -7,7 +7,7 @@ title: Top Page
 
 Hello, and welcome to my website!
 I am Atsushi Hori, an assistant professor at Seikei University.
-My interests include mathematical optimization, variational inequality and complementarity problems, and leader--follower optimization (bilevel optimization).
+My interests include variational inequality and complementarity problems, leader--follower optimization (e.g., bilevel optimization, multi-leader--follower games), data envelopment analysis (DEA).
 
 <!--
 My passion for optimization was sparked during my undergraduate studies at Nanzan University, where I had the privilege of studying under the guidance of Professor Masao Fukushima.
@@ -51,6 +51,8 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
 
 ### Under Review
+
+1. **A. Hori** and K. Sekitani, Variants of the slacks-based measure with assurance region and zeros in input--output data. Submitted.
 
 1. **A. Hori**, D. Tsuyuguchi, and Ellen H. Fukuda, A method for multi-leader--multi-follower games by smoothing the followers' response function. arXiv:[2311.18601](https://arxiv.org/abs/2311.18601)
 
