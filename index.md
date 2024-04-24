@@ -52,7 +52,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Under Review
 
-1. **A. Hori** and K. Sekitani, Variants of the slacks-based measure with assurance region and zeros in input--output data. Submitted.
+1. **A. Hori** and K. Sekitani, Variants of the slacks-based measure with assurance region and zeros in input--output data. arXiv:[2404.14820](https://arxiv.org/abs/2404.14820)
 
 1. **A. Hori**, D. Tsuyuguchi, and Ellen H. Fukuda, A method for multi-leader--multi-follower games by smoothing the followers' response function. arXiv:[2311.18601](https://arxiv.org/abs/2311.18601)
 
