@@ -44,17 +44,17 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Peer-reviewed Papers
 
+1. **A. Hori**, D. Tsuyuguchi, and Ellen H. Fukuda, A method for multi-leader--multi-follower games by smoothing the followers' response function. _Journal of Optimization Theory and Applications_, to appear. arXiv:[2311.18601](https://arxiv.org/abs/2311.18601)
+
 1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, **38**, 756--780, 2023. DOI: [10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) ([description](./drerm_svi.html))
 
-2. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its application to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, **19**, 6430--6450, 2023. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
+1. **A. Hori** and N. Yamashita, Two-stage distributionally robust noncooperative games: Existence of Nash equilibrium and its application to Cournot--Nash competition. _Journal of Industrial and Management Optimization_, **19**, 6430--6450, 2023. DOI:[10.3934/jimo.2022221](https://doi.org/10.3934/jimo.2022221) ([description](./tsnashgame.html))
 
-3. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
+1. **A. Hori** and M. Fukushima, Gauss--Seidel method for multi-leader--follower games. _Journal of Optimization Theory and Applications_, **180**, 651--670, 2019. DOI:[10.1007/s10957-018-1391-5](https://doi.org/10.1007/s10957-018-1391-5) ([description](./mlfgame.html))
 
 ### Under Review
 
 1. **A. Hori** and K. Sekitani, Variants of the slacks-based measure with assurance region and zeros in input--output data. arXiv:[2404.14820](https://arxiv.org/abs/2404.14820)
-
-1. **A. Hori**, D. Tsuyuguchi, and Ellen H. Fukuda, A method for multi-leader--multi-follower games by smoothing the followers' response function. arXiv:[2311.18601](https://arxiv.org/abs/2311.18601)
 
 ## Talks (in English)
 
