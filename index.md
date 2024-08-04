@@ -44,7 +44,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Peer-reviewed Papers
 
-1. **A. Hori**, D. Tsuyuguchi, and Ellen H. Fukuda, A method for multi-leader--multi-follower games by smoothing the followers' response function. _Journal of Optimization Theory and Applications_, to appear. arXiv:[2311.18601](https://arxiv.org/abs/2311.18601)
+1. **A. Hori**, D. Tsuyuguchi, and Ellen H. Fukuda, A method for multi-leader--multi-follower games by smoothing the followers' response function. _Journal of Optimization Theory and Applications_, 2024. [Online first](https://link.springer.com/article/10.1007/s10957-024-02506-2)
 
 1. **A. Hori**, Y. Yamakawa, and N. Yamashita, Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. _Optimization Methods and Software_, **38**, 756--780, 2023. DOI: [10.1080/10556788.2023.2167995](https://doi.org/10.1080/10556788.2023.2167995) ([description](./drerm_svi.html))
 
