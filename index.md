@@ -66,6 +66,12 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Talks (in Japanese)
 
+### Invited talks
+
+1. **堀篤史**：連続最適化におけるナッシュ均衡問題，[日本OR学会研究部会：最適化の理論とアルゴリズム（RAOTA）](https://orsj.org/raota/#raota7)，国立情報学研究所（NII），東京，2024年8月．
+
+### Others
+
 1. **堀篤史**，石森礼樹，関谷和之：1-C-12，規模に関する収穫一定を仮定した3次元空間上の生産可能集合における重み付き最短距離非効率性尺度の性質，[日本OR学会2024年春季研究発表会](https://orsj.org/nc2024s/)，筑波大学筑波キャンパス春日エリア，茨城，2024年3月．
 
 1. **堀篤史**，関谷和之：1-A-4，Variants of the slacks-based measure with assurance region，[日本OR学会2024年春季研究発表会](https://orsj.org/nc2024s/)，筑波大学筑波キャンパス春日エリア，茨城，2024年3月．
