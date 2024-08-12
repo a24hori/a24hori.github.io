@@ -68,7 +68,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Invited talks
 
-1. **堀篤史**：連続最適化におけるナッシュ均衡問題，[日本OR学会研究部会：最適化の理論とアルゴリズム（RAOTA）](https://orsj.org/raota/#raota7)，国立情報学研究所（NII），東京，2024年8月．[公演スライド](https://www.docswell.com/s/5848415/Z7RYQD-2024-08-05-112934)
+1. **堀篤史**：連続最適化におけるナッシュ均衡問題，[日本OR学会研究部会：最適化の理論とアルゴリズム（RAOTA）](https://orsj.org/raota/#raota7)，国立情報学研究所（NII），東京，2024年8月．[講演スライド](https://www.docswell.com/s/5848415/Z7RYQD-2024-08-05-112934)
 
 ### Others
 
