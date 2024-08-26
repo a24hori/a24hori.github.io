@@ -38,7 +38,8 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Committee Activities
 
-- 2022.12--2023.03: Vice-president of [Kyoto University SIAM student chapter](https://sites.google.com/view/siam-sc-kyoto/home)
+- 2024.xx--present: Executive committee member, the Operations Research Society of Japan, 2025 Annual Conference, The Operations Research Society of Japan
+- 2022.12--2023.03: Vice-president of [Kyoto University SIAM student chapter](https://sites.google.com/view/siam-sc-kyoto/home), Society for Industrial and Applied Mathematics
 
 ## Publications
 
