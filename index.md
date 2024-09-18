@@ -73,6 +73,8 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Others
 
+1. **堀篤史**，関谷和之：2-F-9，Bottleneck type DEA model reformulation of Russell graph measure and SBM under production trade-offs，[日本OR学会2024年秋季研究発表会](https://orsj.org/nc2024f/)，南山大学，愛知，2024年9月．
+
 1. **堀篤史**，石森礼樹，関谷和之：1-C-12，規模に関する収穫一定を仮定した3次元空間上の生産可能集合における重み付き最短距離非効率性尺度の性質，[日本OR学会2024年春季研究発表会](https://orsj.org/nc2024s/)，筑波大学筑波キャンパス春日エリア，茨城，2024年3月．
 
 1. **堀篤史**，関谷和之：1-A-4，Variants of the slacks-based measure with assurance region，[日本OR学会2024年春季研究発表会](https://orsj.org/nc2024s/)，筑波大学筑波キャンパス春日エリア，茨城，2024年3月．
@@ -102,6 +104,6 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Awards
 
-- Excellent Presentation Award; Operations Research Society of Japan, Kansai branch SSOR2021 ([link](https://orsj.org/kansai/2021/10/22/%e6%97%a5%e6%9c%acor%e5%ad%a6%e4%bc%9a-%e9%96%a2%e8%a5%bf%e6%94%af%e9%83%a8-2021-%e5%b9%b4%e5%ba%a6%e8%8b%a5%e6%89%8b%e7%a0%94%e7%a9%b6%e7%99%ba%e8%a1%a8%e4%bc%9a-%e5%84%aa%e7%a7%80%e7%99%ba%e8%a1%a8/))
+- Outstanding Presentation Award; Operations Research Society of Japan, Kansai branch SSOR2021 ([link](https://orsj.org/kansai/2021/10/22/%e6%97%a5%e6%9c%acor%e5%ad%a6%e4%bc%9a-%e9%96%a2%e8%a5%bf%e6%94%af%e9%83%a8-2021-%e5%b9%b4%e5%ba%a6%e8%8b%a5%e6%89%8b%e7%a0%94%e7%a9%b6%e7%99%ba%e8%a1%a8%e4%bc%9a-%e5%84%aa%e7%a7%80%e7%99%ba%e8%a1%a8/))
 - Student Thesis Award 2018; Operations Research Society of Japan ([link](http://www.orsj.or.jp/whatisor/award6.html))
-- Excellent Student Presentation Award 2017; The 44th conference, Operations Research Society of Japan, Cyubu branch ([link](http://www.orsj.or.jp/chubu/?p=2708))
+- Outstanding Student Presentation Award 2017; The 44th conference, Operations Research Society of Japan, Cyubu branch ([link](http://www.orsj.or.jp/chubu/?p=2708))
