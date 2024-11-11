@@ -73,6 +73,8 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Others
 
+1. 関谷和之，**堀篤史**：D2-1-4，Bottleneck type DEA model reformulation of Russell graph measure and SBM under production trade-offs，[日本応用数理学会2024年度年会 研究部会主催 OS](https://jsiam.org/annual2024/)，京都大学，京都，2024年9月．
+
 1. **堀篤史**，関谷和之：2-F-9，Bottleneck type DEA model reformulation of Russell graph measure and SBM under production trade-offs，[日本OR学会2024年秋季研究発表会](https://orsj.org/nc2024f/)，南山大学，愛知，2024年9月．
 
 1. **堀篤史**，石森礼樹，関谷和之：1-C-12，規模に関する収穫一定を仮定した3次元空間上の生産可能集合における重み付き最短距離非効率性尺度の性質，[日本OR学会2024年春季研究発表会](https://orsj.org/nc2024s/)，筑波大学筑波キャンパス春日エリア，茨城，2024年3月．
