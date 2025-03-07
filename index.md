@@ -38,7 +38,7 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ## Committee Activities
 
-- 2024.04--present: Executive committee member, the Operations Research Society of Japan, 2025 Annual Conference, The Operations Research Society of Japan
+- (2024.02)--2025.03: Executive committee member, the Operations Research Society of Japan, 2025 Annual Conference, The Operations Research Society of Japan
 - 2022.12--2023.03: Vice-president of [Kyoto University SIAM student chapter](https://sites.google.com/view/siam-sc-kyoto/home), Society for Industrial and Applied Mathematics
 
 ## Publications
@@ -72,6 +72,10 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 1. **堀篤史**：連続最適化におけるナッシュ均衡問題，[日本OR学会研究部会：最適化の理論とアルゴリズム（RAOTA）](https://orsj.org/raota/#raota7)，国立情報学研究所（NII），東京，2024年8月．[講演スライド](https://www.docswell.com/s/5848415/Z7RYQD-2024-08-05-112934)
 
 ### Others
+
+1. **堀篤史**，奥野貴之，福田エレン秀美：2-A-2，大規模マルチリーダー・フォロワーゲームに対する Hessian-free な解法，[日本OR学会2025年春季研究発表会](https://orsj.org/nc2025s/)，成蹊大学，東京，2025年3月．
+
+1. **堀篤史**，石森礼樹，関谷和之：1-E-4，規模に関する収穫一定を仮定した3次元生産可能集合上における重み付き最短距離非効率性尺度の性質，[日本OR学会2025年春季研究発表会](https://orsj.org/nc2025s/)，成蹊大学，東京，2025年3月．
 
 1. 関谷和之，**堀篤史**：D2-1-4，Bottleneck type DEA model reformulation of Russell graph measure and SBM under production trade-offs，[日本応用数理学会2024年度年会 研究部会主催 OS](https://jsiam.org/annual2024/)，京都大学，京都，2024年9月．
 
