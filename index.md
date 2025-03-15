@@ -55,6 +55,10 @@ All in all, I am grateful for the support and guidance of my mentors, both past 
 
 ### Under Review
 
+1. **A. Hori** and K. Sekitani, Variants of the slacks-based measure with weights restrictions.
+
+### MISC
+
 1. **A. Hori** and K. Sekitani, Variants of the slacks-based measure with assurance region and zeros in input--output data. arXiv:[2404.14820](https://arxiv.org/abs/2404.14820)
 
 ## Talks (in English)
