@@ -1,9 +1,9 @@
 ---
 title: Atsushi Hori's Website
-name: Atsushi Hori (堀 篤史)
+name: Atsushi Hori
 affiliation: Assistant Professor, Graduate School of Engineering, Nagoya Institute of Technology (from April 1, 2025)
 field: Mathematical Optimization, Application of nonlinear optimization theory to equilibrium problems (Nash equilibrium problem, robust equilibrium problem)
-email: hori.atsushi [*] nitech.ac.jp
+email: hori [*] nitech.ac.jp
 ---
 
 ## Research
@@ -20,4 +20,4 @@ Please visit [researchmap](https://researchmap.jp/atsushi_hori) for my publicati
 
 ## Contact
 
-Email: hori.atsushi [*] nitech.ac.jp
+Email: hori [*] nitech.ac.jp

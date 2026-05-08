@@ -20,4 +20,4 @@ email: hori.atsushi [*] nitech.ac.jp
 
 ## 連絡先
 
-メール: hori.atsushi [*] nitech.ac.jp
+メール: hori [*] nitech.ac.jp
