@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Atsushi Hori's (堀篤史) Website  -- Link</title>
-		<link rel="stylesheet" href="style.css">
-		<script src="script.js"></script>
-	</head>
-	<body>
-		<div id="container">
-			<h1>リンク</h1>
-			<hr>
-			<ul>
-				<li><a href="https://www.nitech.ac.jp/">名古屋工業大学</a>/
-					<a href="https://shakai.web.nitech.ac.jp/">工学部 社会工学科</a>/
-					<a href="https://sme.web.nitech.ac.jp/">経営システム分野</a>
-				</li>
-				<li><a href="https://www.seikei.ac.jp/university/">成蹊大学</a></li>
-			</ul>
-		</div>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リンク / Links</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <nav class="nav-links">
+        <a href="./index.html" data-ja="← トップ" data-en="← Home">← トップ</a>
+        <a href="./class.html" data-ja="学生向け" data-en="For Students">学生向け</a>
+      </nav>
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="ja" onclick="switchLang('ja')">JA</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en" onclick="switchLang('en')">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="content-ja" class="lang-content">
+      <div class="content-sections">
+        <section class="card" data-section="リンク">
+<h2>リンク</h2>
+<ul>
+<li><a href="https://www.nitech.ac.jp/">名古屋工業大学</a> / <a href="https://shakai.web.nitech.ac.jp/">工学部 社会工学科</a> / <a href="https://sme.web.nitech.ac.jp/">経営システム分野</a></li>
+<li><a href="https://www.seikei.ac.jp/university/">成蹊大学</a></li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div id="content-en" class="lang-content hidden">
+      <div class="content-sections">
+        <section class="card" data-section="links">
+<h2>Links</h2>
+<ul>
+<li><a href="https://www.nitech.ac.jp/">Nagoya Institute of Technology</a> / <a href="https://shakai.web.nitech.ac.jp/">Faculty of Engineering, Dept. of Civil and Social Engineering</a> / <a href="https://sme.web.nitech.ac.jp/">Social Management Engineering Program</a></li>
+<li><a href="https://www.seikei.ac.jp/university/">Seikei University</a></li>
+</ul>
+</section>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>

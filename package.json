@@ -1,0 +1,12 @@
+{
+  "name": "a24hori-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^9.1.6"
+  }
+}
