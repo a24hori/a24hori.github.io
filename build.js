@@ -2,6 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const { marked } = require('marked');
+const markedKatex = require('marked-katex-extension');
+
+marked.use(markedKatex({ throwOnError: false }));
 
 // ============================================================
 // ナビゲーション設定
@@ -88,6 +91,7 @@ function buildBilingual({ name, nav }) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">${noindex}
   <title>${ja.data.title} / ${en.data.title}</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
 </head>
 <body>
   <header class="site-header">
@@ -132,6 +136,7 @@ function buildSingle({ name, nav }) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">${noindex}
   <title>${page.data.title}</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
 </head>
 <body>
   <header class="site-header">
