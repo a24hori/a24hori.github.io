@@ -12,7 +12,7 @@ email: hori.atsushi [*] nitech.ac.jp
 
 ## ニュース
 
-- 2026/06/19：プレプリントを公開しました（[arXiv:2606:20013](https://arxiv.org/abs/2606.20013)）
+- 2026/06/19：プレプリントを公開しました（[arXiv:2606.20013](https://arxiv.org/abs/2606.20013)）
 - 2026/05/08：ウェブサイトをリニューアルしました
 - 2026/05/07：プレプリントを公開しました（[arXiv:2605.05860](https://arxiv.org/abs/2605.05860)）
 - 2026/05/01：最新の研究成果や実績については [researchmap](https://researchmap.jp/atsushi_hori) の方で更新していきます（更新の手間削減のため）

@@ -12,7 +12,7 @@ Please visit [researchmap](https://researchmap.jp/atsushi_hori) for my publicati
 
 ## News
 
-- 2026/06/19: Preprint released ([arXiv:2606:20013](https://arxiv.org/abs/2606.20013))
+- 2026/06/19: Preprint released ([arXiv:2606.20013](https://arxiv.org/abs/2606.20013))
 - 2026/05/08: Website renewed
 - 2026/05/07: Preprint released ([arXiv:2605.05860](https://arxiv.org/abs/2605.05860))
 - 2026/05/01: Research results and achievements will be updated at [researchmap](https://researchmap.jp/atsushi_hori)
