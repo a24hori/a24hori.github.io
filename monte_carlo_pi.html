@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>モンテカルロ法による円周率の近似計算</title>
+<style>
+  :root {
+    --surface-1:      #fcfcfb;
+    --page-plane:     #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-1:       #2a78d6;   /* 円の中の点・推定値の折れ線 */
+    --series-1-fill:  rgba(42,120,214,0.55);
+    --outside-fill:   rgba(137,135,129,0.35); /* 円の外の点 */
+    --card-shadow:    0 1px 2px rgba(11,11,11,0.06), 0 4px 16px rgba(11,11,11,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface-1:      #1a1a19;
+      --page-plane:     #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --series-1-fill:  rgba(57,135,229,0.55);
+      --outside-fill:   rgba(137,135,129,0.30);
+      --card-shadow:    0 1px 2px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.3);
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--page-plane);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+
+  body {
+    padding: 20px 14px 28px;
+  }
+
+  .card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: var(--card-shadow);
+    padding: 22px 24px 26px;
+  }
+
+  h1 {
+    font-size: 1.28rem;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .lede {
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.7;
+    margin: 0 0 18px;
+  }
+
+  .formula {
+    display: block;
+    margin-top: 8px;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    background: var(--page-plane);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px;
+    margin-top: 8px;
+  }
+
+  @media (max-width: 700px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+
+  .panel-title {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .scatter-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .legend {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .controls {
+    margin-top: 18px;
+  }
+
+  .slider-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .slider-row label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+  }
+
+  input[type="range"] {
+    flex: 1;
+    accent-color: var(--series-1);
+  }
+
+  input[type="number"] {
+    width: 84px;
+    padding: 5px 7px;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--surface-1);
+    color: var(--text-primary);
+  }
+
+  .preset-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+  }
+
+  button {
+    font-family: inherit;
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    background: var(--page-plane);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 6px 13px;
+    cursor: pointer;
+  }
+
+  button:hover { background: var(--gridline); }
+
+  button.primary {
+    background: var(--series-1);
+    color: #ffffff;
+    border-color: var(--series-1);
+  }
+
+  button.primary:hover { opacity: 0.9; background: var(--series-1); }
+
+  .stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .stat {
+    background: var(--page-plane);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+
+  .stat .k {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin: 0 0 3px;
+  }
+
+  .stat .v {
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    margin: 0;
+  }
+
+  .stat .v.pi-value { color: var(--series-1); }
+
+  .chart-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+  }
+
+  .chart-note {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>モンテカルロ法による円周率の近似</h1>
+  <p class="lede">
+		（本サイトは教育目的に作成したものです）
+    一辺2の正方形（面積4）に，半径1の円（面積 π）がぴったり内接しています．正方形の内側にランダムな点を一様に打ち続けると，円の中に入る点の割合は π/4 に近づきます．したがって，次の式で π を近似できます：
+    <span class="formula">π ≈ 4 × (円の中に入った点の数) ÷ (打った点の総数)</span>
+    下のスライダーを右に動かして点の数を増やし，πの近似値が真の値 (3.14159…) にどう近づいていくか観察してみましょう．
+  </p>
+
+  <div class="layout">
+    <div>
+      <p class="panel-title">シミュレーション</p>
+      <div class="scatter-wrap">
+        <canvas id="scatter" aria-label="正方形内にランダムな点を打つシミュレーション"></canvas>
+      </div>
+      <div class="legend">
+        <span class="legend-item"><span class="swatch" style="background: var(--series-1);"></span>円の中</span>
+        <span class="legend-item"><span class="swatch" style="background: var(--text-muted);"></span>円の外</span>
+      </div>
+
+      <div class="controls">
+        <div class="slider-row">
+          <label for="slider">点の数 N</label>
+          <input type="range" id="slider" min="0" max="1000" step="1" value="0">
+          <input type="number" id="nInput" min="1" max="20000" step="1">
+        </div>
+        <div class="preset-row">
+          <button data-preset="10">10</button>
+          <button data-preset="100">100</button>
+          <button data-preset="1000">1,000</button>
+          <button data-preset="5000">5,000</button>
+          <button data-preset="20000">20,000</button>
+          <button id="playBtn" class="primary">▶ 自動で増やす</button>
+          <button id="resetBtn">↺ 新しい試行</button>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <p class="k">打った点の総数 N</p>
+          <p class="v" id="statN">0</p>
+        </div>
+        <div class="stat">
+          <p class="k">円の中の点の数</p>
+          <p class="v" id="statInside">0</p>
+        </div>
+        <div class="stat">
+          <p class="k">πの近似値</p>
+          <p class="v pi-value" id="statPi">0.000000</p>
+        </div>
+        <div class="stat">
+          <p class="k">真の値との誤差</p>
+          <p class="v" id="statErr">0.000000</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="panel-title">πの推定値の収束</p>
+      <div class="chart-wrap">
+        <canvas id="chart" aria-label="点の数を増やしたときのπの推定値の推移"></canvas>
+      </div>
+      <p class="chart-note">
+        横軸は点の数 N（対数目盛，1〜20,000），縦軸はその時点までの累積推定値．破線は真の値 π = 3.14159… を示す．
+        Nが小さいうちは推定値が大きく揺らぐが，Nが増えるほど揺らぎが小さくなり π に近づいていく．
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var N_MIN = 1;
+  var N_MAX = 20000;
+  var SLIDER_MAX = 1000;
+
+  var points = [];        // {x, y, inside}
+  var prefixInside = [];  // prefixInside[i] = count of inside points among points[0..i]
+  var currentN = 0;
+
+  var slider = document.getElementById("slider");
+  var nInput = document.getElementById("nInput");
+  var playBtn = document.getElementById("playBtn");
+  var resetBtn = document.getElementById("resetBtn");
+  var statN = document.getElementById("statN");
+  var statInside = document.getElementById("statInside");
+  var statPi = document.getElementById("statPi");
+  var statErr = document.getElementById("statErr");
+
+  var scatterCanvas = document.getElementById("scatter");
+  var scatterCtx = scatterCanvas.getContext("2d");
+  var chartCanvas = document.getElementById("chart");
+  var chartCtx = chartCanvas.getContext("2d");
+
+  var cssVars = getComputedStyle(document.documentElement);
+  function cssVar(name) { return cssVars.getPropertyValue(name).trim(); }
+
+  // ---------- point generation ----------
+
+  function ensurePoints(n) {
+    while (points.length < n) {
+      var x = Math.random() * 2 - 1;
+      var y = Math.random() * 2 - 1;
+      var inside = (x * x + y * y) <= 1;
+      points.push({ x: x, y: y, inside: inside });
+      var prevSum = prefixInside.length ? prefixInside[prefixInside.length - 1] : 0;
+      prefixInside.push(prevSum + (inside ? 1 : 0));
+    }
+  }
+
+  function insideCountAt(n) {
+    return n > 0 ? prefixInside[n - 1] : 0;
+  }
+
+  function piEstimateAt(n) {
+    return n > 0 ? (4 * insideCountAt(n)) / n : 0;
+  }
+
+  function resetTrial() {
+    points = [];
+    prefixInside = [];
+    ensurePoints(currentN);
+    scheduleDraw();
+  }
+
+  // ---------- slider <-> N mapping (log scale) ----------
+
+  function sliderToN(s) {
+    var t = s / SLIDER_MAX;
+    return Math.max(N_MIN, Math.min(N_MAX, Math.round(N_MIN * Math.pow(N_MAX / N_MIN, t))));
+  }
+
+  function nToSlider(n) {
+    var clamped = Math.max(N_MIN, Math.min(N_MAX, n));
+    var t = Math.log(clamped / N_MIN) / Math.log(N_MAX / N_MIN);
+    return Math.round(t * SLIDER_MAX);
+  }
+
+  // ---------- canvas sizing (device pixel ratio aware) ----------
+
+  function fitCanvas(canvas, ctx) {
+    var rect = canvas.getBoundingClientRect();
+    var dpr = window.devicePixelRatio || 1;
+    var w = Math.max(1, Math.round(rect.width));
+    var h = Math.max(1, Math.round(rect.height));
+    canvas.width = Math.round(w * dpr);
+    canvas.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    return { w: w, h: h };
+  }
+
+  // ---------- scatter plot ----------
+
+  function drawScatter() {
+    var size = fitCanvas(scatterCanvas, scatterCtx);
+    var w = size.w, h = size.h;
+    var ctx = scatterCtx;
+    ctx.clearRect(0, 0, w, h);
+
+    var pad = Math.max(10, Math.round(Math.min(w, h) * 0.05));
+    var side = Math.min(w, h) - pad * 2;
+    var ox = (w - side) / 2;
+    var oy = (h - side) / 2;
+
+    function px(x) { return ox + ((x + 1) / 2) * side; }
+    function py(y) { return oy + ((1 - y) / 2) * side; }
+
+    // square
+    ctx.strokeStyle = cssVar("--baseline");
+    ctx.lineWidth = 1.5;
+    ctx.strokeRect(ox + 0.75, oy + 0.75, side - 1.5, side - 1.5);
+
+    // circle
+    ctx.beginPath();
+    ctx.arc(ox + side / 2, oy + side / 2, side / 2, 0, Math.PI * 2);
+    ctx.strokeStyle = cssVar("--series-1");
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // points
+    var r = currentN > 4000 ? 1.1 : (currentN > 800 ? 1.5 : 2.2);
+    var insideFill = cssVar("--series-1-fill");
+    var outsideFill = cssVar("--outside-fill");
+
+    for (var i = 0; i < currentN; i++) {
+      var p = points[i];
+      ctx.beginPath();
+      ctx.arc(px(p.x), py(p.y), r, 0, Math.PI * 2);
+      ctx.fillStyle = p.inside ? insideFill : outsideFill;
+      ctx.fill();
+    }
+  }
+
+  // ---------- convergence chart ----------
+
+  function sampleIndices(n) {
+    if (n <= 0) return [];
+    if (n <= 300) {
+      var arr = [];
+      for (var i = 1; i <= n; i++) arr.push(i);
+      return arr;
+    }
+    var count = 300;
+    var seen = {};
+    var out = [];
+    for (var k = 0; k < count; k++) {
+      var t = k / (count - 1);
+      var v = Math.max(1, Math.min(n, Math.round(Math.pow(n, t))));
+      if (!seen[v]) { seen[v] = true; out.push(v); }
+    }
+    out.sort(function (a, b) { return a - b; });
+    return out;
+  }
+
+  function drawChart() {
+    var size = fitCanvas(chartCanvas, chartCtx);
+    var w = size.w, h = size.h;
+    var ctx = chartCtx;
+    ctx.clearRect(0, 0, w, h);
+
+    var padL = 34, padR = 14, padT = 14, padB = 26;
+    var plotW = w - padL - padR;
+    var plotH = h - padT - padB;
+
+    function xForN(n) {
+      var t = Math.log(Math.max(1, n)) / Math.log(N_MAX);
+      return padL + t * plotW;
+    }
+    function yForEstimate(e) {
+      var clamped = Math.max(0, Math.min(4, e));
+      var t = clamped / 4;
+      return padT + (1 - t) * plotH;
+    }
+
+    // gridlines + y ticks
+    ctx.strokeStyle = cssVar("--gridline");
+    ctx.fillStyle = cssVar("--text-muted");
+    ctx.font = "11px system-ui, sans-serif";
+    ctx.textAlign = "right";
+    ctx.textBaseline = "middle";
+    [0, 1, 2, 3, 4].forEach(function (v) {
+      var y = yForEstimate(v);
+      ctx.beginPath();
+      ctx.moveTo(padL, y);
+      ctx.lineTo(padL + plotW, y);
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.fillText(String(v), padL - 6, y);
+    });
+
+    // x ticks
+    ctx.textAlign = "center";
+    ctx.textBaseline = "top";
+    [1, 10, 100, 1000, 10000].forEach(function (n) {
+      if (n > N_MAX) return;
+      var x = xForN(n);
+      ctx.fillText(n >= 1000 ? (n / 1000) + "k" : String(n), x, padT + plotH + 6);
+    });
+
+    // pi reference line
+    var piY = yForEstimate(Math.PI);
+    ctx.save();
+    ctx.setLineDash([5, 4]);
+    ctx.strokeStyle = cssVar("--text-secondary");
+    ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.moveTo(padL, piY);
+    ctx.lineTo(padL + plotW, piY);
+    ctx.stroke();
+    ctx.restore();
+    ctx.fillStyle = cssVar("--text-secondary");
+    ctx.textAlign = "left";
+    ctx.textBaseline = "bottom";
+    ctx.fillText("π ≈ 3.14159", padL + 6, piY - 3);
+
+    // axis baseline
+    ctx.strokeStyle = cssVar("--baseline");
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(padL, padT + plotH);
+    ctx.lineTo(padL + plotW, padT + plotH);
+    ctx.stroke();
+
+    if (currentN < 1) return;
+
+    // estimate polyline
+    var idxs = sampleIndices(currentN);
+    ctx.beginPath();
+    for (var i = 0; i < idxs.length; i++) {
+      var n = idxs[i];
+      var x = xForN(n);
+      var y = yForEstimate(piEstimateAt(n));
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = cssVar("--series-1");
+    ctx.lineWidth = 2;
+    ctx.lineJoin = "round";
+    ctx.stroke();
+
+    // current point marker
+    var lastN = idxs[idxs.length - 1];
+    var lx = xForN(lastN);
+    var ly = yForEstimate(piEstimateAt(lastN));
+    ctx.beginPath();
+    ctx.arc(lx, ly, 3.5, 0, Math.PI * 2);
+    ctx.fillStyle = cssVar("--series-1");
+    ctx.fill();
+  }
+
+  // ---------- stats + orchestration ----------
+
+  function updateStats() {
+    var inside = insideCountAt(currentN);
+    var est = piEstimateAt(currentN);
+    var err = Math.abs(est - Math.PI);
+    statN.textContent = currentN.toLocaleString("ja-JP");
+    statInside.textContent = inside.toLocaleString("ja-JP");
+    statPi.textContent = currentN > 0 ? est.toFixed(6) : "—";
+    statErr.textContent = currentN > 0 ? err.toFixed(6) : "—";
+  }
+
+  var drawScheduled = false;
+  function scheduleDraw() {
+    if (drawScheduled) return;
+    drawScheduled = true;
+    requestAnimationFrame(function () {
+      drawScheduled = false;
+      drawScatter();
+      drawChart();
+      updateStats();
+    });
+  }
+
+  function setN(n, opts) {
+    n = Math.max(N_MIN, Math.min(N_MAX, Math.round(n)));
+    currentN = n;
+    ensurePoints(n);
+    if (!opts || opts.syncSlider !== false) slider.value = nToSlider(n);
+    if (!opts || opts.syncInput !== false) nInput.value = n;
+    scheduleDraw();
+  }
+
+  // ---------- events ----------
+
+  slider.addEventListener("input", function () {
+    stopPlaying();
+    setN(sliderToN(Number(slider.value)), { syncSlider: false });
+  });
+
+  nInput.addEventListener("change", function () {
+    stopPlaying();
+    var v = parseInt(nInput.value, 10);
+    if (isNaN(v)) v = currentN;
+    setN(v, { syncInput: false });
+  });
+
+  document.querySelectorAll("[data-preset]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      stopPlaying();
+      setN(parseInt(btn.getAttribute("data-preset"), 10));
+    });
+  });
+
+  resetBtn.addEventListener("click", function () {
+    stopPlaying();
+    resetTrial();
+  });
+
+  // auto-play: animate N from 1 up to N_MAX on a log scale
+  var playing = false;
+  var playStart = null;
+  var PLAY_DURATION_MS = 7000;
+
+  function playStep(ts) {
+    if (!playing) return;
+    if (playStart === null) playStart = ts;
+    var t = Math.min(1, (ts - playStart) / PLAY_DURATION_MS);
+    setN(sliderToN(t * SLIDER_MAX));
+    if (t < 1) {
+      requestAnimationFrame(playStep);
+    } else {
+      stopPlaying();
+    }
+  }
+
+  function startPlaying() {
+    playing = true;
+    playStart = null;
+    playBtn.textContent = "⏸ 停止";
+    resetTrial();
+    requestAnimationFrame(playStep);
+  }
+
+  function stopPlaying() {
+    if (!playing) return;
+    playing = false;
+    playBtn.textContent = "▶ 自動で増やす";
+  }
+
+  playBtn.addEventListener("click", function () {
+    if (playing) stopPlaying(); else startPlaying();
+  });
+
+  window.addEventListener("resize", scheduleDraw);
+  if (window.matchMedia) {
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+      cssVars = getComputedStyle(document.documentElement);
+      scheduleDraw();
+    });
+  }
+
+  // ---------- init ----------
+
+  setN(100);
+})();
+</script>
+</body>
+</html>
