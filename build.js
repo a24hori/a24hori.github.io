@@ -37,6 +37,14 @@ const PAGES = [
       { href: './links.html', ja: 'リンク' },
     ],
   },
+	{
+		name: 'monte_simulation',
+		bilingual: false,
+		nav: [
+      { href: './index.html', ja: '← トップ' },
+      { href: './links.html', ja: 'リンク' },
+		],
+	},
 ];
 // ============================================================
 
