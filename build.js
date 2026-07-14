@@ -70,7 +70,7 @@ function profileCard(data) {
   if (!data.name || !data.affiliation) return '';
   return `
       <div class="card profile-card">
-        <img src="./imgs/profile.jpg" alt="profile" class="profile-img">
+        <img src="./imgs/profile.png" alt="profile" class="profile-img">
         <div class="profile-text">
           <h1>${data.name}</h1>
           <p class="affiliation">${data.affiliation}</p>
